@@ -23,12 +23,17 @@
    text-align: center;
   padding: 0 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
  }
 
  #showcase h1 {
    font-size: 50px;
    line-height: 1.2;
 
+ }
+
+ #showcase h1, .explanation, .linkedin {
+   z-index: 1;
  }
 
   #showcase p {
@@ -39,11 +44,14 @@
   #showcase .explanation a {
     text-decoration: none;
     color: #fff;
+
   }
 
-  /* #showcase .explanation a:hover {
-    color: #12CBC4;
-  } */
+  }
+
+  #showcase .explanation a:hover {
+    color: #0077B5 !important;
+  }
 
   /* #showcase .button {
     font-size: 18px;
@@ -55,12 +63,23 @@
     margin-top: 20px;
   } */
 
-  #showcase .button:hover {
+  /* #showcase .button:hover {
     background: #12CBC4;
     text: #000000;
+  } */
+
+  .linkedin{
+    padding: 1.5rem;
+    color: #0077B5 !important;
+    /* border: #fff 1px solid; */
+    /* border-radius: 50%; */
   }
 
-  a .linkedin{
-    padding-top: 5rem;
-    color: #0077B5 !important;
+  .color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+
   }
