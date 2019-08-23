@@ -12,7 +12,7 @@
  }
 
  #showcase {
-   background-image: url('../img/k_TED.jpg');
+   background-image: url('../img/richard_blank.jpg');
    background-size: cover;
    background-position: center;
    height: 100vh;
@@ -68,7 +68,7 @@
     text: #000000;
   } */
 
-  .linkedin{
+  .ticket{
     padding: 1.5rem;
     color: #0077B5 !important;
     /* border: #fff 1px solid; */
@@ -80,6 +80,13 @@
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .7;
+    opacity: .5;
 
   }
+
+  .tix {
+    margin-top: 15rem;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+
+  
