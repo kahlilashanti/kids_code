@@ -82,9 +82,12 @@
      transition: background 500ms ease;
    }
 
+
    .btn:hover{
-     background:#f4f4f4;
+    background:#005b8f;
+    color:#ffffff;
    }
+
 
    #header{
      padding: 1.5rem;
